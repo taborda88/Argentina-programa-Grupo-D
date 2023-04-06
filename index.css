@@ -1,0 +1,17 @@
+
+ul.nav{
+    background: #d9ad77;
+    color:black;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li{
+    display: inline;
+    margin: 160px;
+    
+}
+
+
