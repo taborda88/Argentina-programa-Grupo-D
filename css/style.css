@@ -9,7 +9,23 @@ body{
     width: 75%;
     margin-left: 50px;
     border-radius: 50px;
+    /*border: black solid;*/
 }
+
+.btn{
+    background-color: #F2EED8;
+    color: #423529;
+    padding: 2px 6px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: #423529 solid;
+}
+
+.btn:hover {
+    background-color: #423529;
+    color: #F2EED8;
+  }
 
 .detalles{
     display: flex;
@@ -52,9 +68,14 @@ body{
 
 .nombre_reco{
     font-size: larger;
+    margin-top: -3px;
 }
 
 .pro_secu_info{
+    text-align: center;
+}
+
+.cantidad{
     text-align: center;
 }
 
@@ -69,13 +90,21 @@ body{
     width: 85px; 
     margin-left: auto;
     margin-right: auto;
-    
+    margin-top: -30px;
+}
+
+.precio_reco{
+    margin-top: -10px;
 }
 
 .bi-star-fill{
-    width: 2px; 
+    margin: 0%; 
     margin-left: auto;
     margin-right: auto;
+}
+
+.sec_reco{
+    padding-bottom: 50px;
 }
 
 .recomendados{
