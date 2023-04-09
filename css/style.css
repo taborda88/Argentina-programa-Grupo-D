@@ -1,0 +1,85 @@
+body{
+    background: #d9ad77;
+    color: #423529;
+    font-family: cursive;
+
+}
+
+.muestra{
+    width: 75%;
+    margin-left: 50px;
+    border-radius: 50px;
+}
+
+.detalles{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.descripcion{
+    margin: 50px;
+}
+
+.seccion_principal{
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+.nombre{
+    font-size: xx-large;
+}
+
+.precio{
+    font-size: x-large;
+}
+
+.texto{
+    width: 100%; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+.titulo{
+    font-size: x-large;
+    border-bottom: solid #F2EED8;
+    text-align: center;
+    width: 1250px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nombre_reco{
+    font-size: larger;
+}
+
+.pro_secu_info{
+    text-align: center;
+}
+
+.secu_list{
+    display: flex;
+    flex-direction: row;
+}
+
+.calificacion{
+    display: flex;
+    flex-wrap: row;
+    width: 85px; 
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.bi-star-fill{
+    width: 2px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recomendados{
+    width: 35%;
+    border-radius: 50px;
+    border: #423529 solid;
+}
