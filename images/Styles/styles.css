@@ -1,0 +1,17 @@
+*{  border:0;
+    background-color:white;
+}
+.Productos{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+
+    background-color:  #d9ad77;
+}
+.card {
+    margin: 20px;
+}
+.card-text {
+text-decoration: solid;
+color: black;
+}
