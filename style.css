@@ -1,0 +1,30 @@
+.frase{
+    background: url(otono-argentina-portadajpg.webp);
+    background-image: url(otono-argentina-portadajpg.webp);
+}
+
+
+.grid-container{
+    width: 900px;
+    height: 900px;
+    outline: 2px burlywood;
+    display: grid;
+    row-gap: 30px;
+    grid-template-columns: repeat(3 ,1fr)   ;
+    grid-template-rows: repeat(2 ,1fr);
+    margin: auto;
+
+}
+img{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+span{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: burlywood;
+    color: green, 
+}
+
+
+
