@@ -1,0 +1,17 @@
+.Texto{
+    color: black;
+   align-items: center;
+   text-align: center;
+   z-index: 2;
+   background-color: #d9ad77;
+   margin: 0cm;
+}
+.Imagen{
+    display: flex;
+    box-sizing: content-box 300 border-box 10;
+    justify-content: center;
+   background-color: #d9ad77;
+}
+.catalogo{
+    margin-top: 0.5cm;
+}
