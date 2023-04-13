@@ -1,6 +1,6 @@
-*{ border:0;
+/**{ border:0;
     background-color:#d9ad77;
-}
+}*/
 
 /* pagina principal index Juanfran*/
 
@@ -24,9 +24,12 @@
 
 /* pagina quienes somos Victor*/
 
+/* no usar body */
 body{
   
     background: radial-gradient(#f2edd5, #d9ad77,#8b4513);}
+
+/* no usar h1 */
 h1{
     margin: auto;
     width: 250px;
@@ -77,6 +80,7 @@ h1{
    
 
 }
+/* no usar img */
 img{
     width: 300px;
     height: 300px;
@@ -89,6 +93,7 @@ img{
     border-radius: 30px 1px;
     
 }
+/* no usar span */
 span{
     font-size: large;
     font-weight:bold;
@@ -99,7 +104,7 @@ span{
 
 
 }
-
+/* no usar img:hover */
 img:hover{
     width: 400px;
     height: 400px;
@@ -244,6 +249,7 @@ color: black;
 }
 
 /* navbar Melina*/
+/* no usar ul ni nav */
 ul.nav{
     list-style-type: none;
   margin: 0;
@@ -251,9 +257,11 @@ ul.nav{
   overflow: hidden;
   background: #d9ad77
 }
+/* no usar li */
 li{
     float: left;
 }
+/* no usar li ni a */
 li a {
   display: block;
   color: white;
@@ -264,11 +272,12 @@ li a {
 }
 
 /* footer Gema*/
+/* no usar * */
 * {font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     margin: 10px;
     }
-    
+    /* usar footer creo que esta bien porque solo vos usas esa reservada */
     footer{
         background: #d9ad77;
         color: #423529;
@@ -283,13 +292,14 @@ li a {
         max-width: 150px;
         max-height: 150px;
     }
+    /* no usar ul */
     ul {
         list-style: none;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
-    
+    /* no usar a */
     a {
         color: inherit !important;
         text-decoration: none !important;
