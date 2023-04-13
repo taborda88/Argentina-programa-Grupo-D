@@ -6,10 +6,12 @@ body{
 }
 
 .muestra{
-    width: 75%;
-    margin-left: 50px;
+    /*width: 75%;*/
+    height: 465px;
+    width: 321px;
+    margin-left: 75px;
+    margin-right: 150px;
     border-radius: 50px;
-    /*border: black solid;*/
 }
 
 .btn{
@@ -111,4 +113,24 @@ body{
     width: 35%;
     border-radius: 50px;
     border: #423529 solid;
+}
+
+/* navbar */
+ul.nav{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #d9ad77
+}
+li{
+    float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: 380px;
 }
