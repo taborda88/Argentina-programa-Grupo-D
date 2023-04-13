@@ -1,4 +1,9 @@
+*{ border:0;
+    background-color:#d9ad77;
+}
+
 /* pagina principal index Juanfran*/
+
 .Texto{
     color: black;
    align-items: center;
@@ -102,15 +107,11 @@ img:hover{
 }
 
  /* Pagina productos Rocio*/
- *{  border:0;
-    background-color:white;
-}
+
 .Productos{
     display: flex;
     flex-wrap:wrap;
-    justify-content: center;
-
-    background-color:  #d9ad77;
+    justify-content: center; 
 }
 .card {
     margin: 20px;
