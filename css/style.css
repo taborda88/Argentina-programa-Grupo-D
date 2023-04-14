@@ -30,22 +30,25 @@
     background: radial-gradient(#f2edd5, #d9ad77,#8b4513);}
 
 /* no usar h1 */
+
 .title{
-    margin: auto;
+   
+    margin:auto;
     width: 250px;
-    display: inline;
     display:flex;
     align-items: center;
     justify-content: center;
-    background-image: url(Fondos/warm-autumn-wallpaper-vector.jpg); 
+    background-image: url(/Argentina-programa-Grupo-D/fondo1/warm-autumn-wallpaper-vector.jpg   ); 
     box-shadow: 10px  10px 10px;
 }
 .fr{
     color: black;
+    margin-top: 10px;
     font-weight: bold;
     display: inline;
     display: flex;
     justify-content: center;
+    align-items: center;
     font-size: 20px; 
     box-shadow: 10px  10px 10px;
     
@@ -63,7 +66,7 @@
 }
 
 .frase{
-   background-image: url(/img/otoño.jpg);
+   background-image: url(/Argentina-programa-Grupo-D/fondo1/warm-autumn-wallpaper-vector.jpg);
       
 }
 .grid-container{
