@@ -290,6 +290,16 @@ color: black;
     color: #423529;
 }
 
+@media (max-width: 1065px){
+    .logoNav{
+        display: none;
+    }
+    .nav{
+        padding-bottom: 75px;
+    }
+
+}
+
 /* footer Gema*/
     footer{
         display: flex;
