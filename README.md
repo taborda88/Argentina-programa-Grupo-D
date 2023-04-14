@@ -1,5 +1,5 @@
 # Argentina-programa-Grupo-D
-Trabajo Practico Integrador /n
+Trabajo Practico Integrador
 Integrantes:
 Emanuel Toledo
 Gema Magdalena Rodriguez Yucare
