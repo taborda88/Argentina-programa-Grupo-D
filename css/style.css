@@ -25,12 +25,12 @@
 /* pagina quienes somos Victor*/
 
 /* no usar body */
-body{
+.main{
   
     background: radial-gradient(#f2edd5, #d9ad77,#8b4513);}
 
 /* no usar h1 */
-h1{
+.title{
     margin: auto;
     width: 250px;
     display: inline;
@@ -81,7 +81,7 @@ h1{
 
 }
 /* no usar img */
-img{
+.img-avatares{
     width: 300px;
     height: 300px;
     display: grid;
@@ -94,7 +94,7 @@ img{
     
 }
 /* no usar span */
-span{
+.nombres{
     font-size: large;
     font-weight:bold;
     font-family: 'Courier New', Courier, monospace;
@@ -105,7 +105,7 @@ span{
 
 }
 /* no usar img:hover */
-img:hover{
+.img-avatares:hover{
     width: 400px;
     height: 400px;
     transition: all 0.5s ease-out;
@@ -250,7 +250,7 @@ color: black;
 
 /* navbar Melina*/
 /* no usar ul ni nav */
-ul.nav{
+.nav{
     list-style-type: none;
   margin: 0;
   padding: 0;
@@ -258,11 +258,11 @@ ul.nav{
   background: #d9ad77
 }
 /* no usar li */
-li{
+.nav-li{
     float: left;
 }
 /* no usar li ni a */
-li a {
+.nav-a {
   display: block;
   color: white;
   text-align: center;
@@ -273,34 +273,39 @@ li a {
 
 /* footer Gema*/
 /* no usar * */
-* {font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
-    margin: 10px;
-    }
+
     /* usar footer creo que esta bien porque solo vos usas esa reservada */
     footer{
+        display: flex;
+        flex-direction: column;
         background: #d9ad77;
         color: #423529;
         padding: 20px;
-        
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+        margin-top: 70px; 
+        gap: 20px;
     }
     
     .listado {
         display: inline-flex;
+        gap: 30px;
     }
     .logo {
         max-width: 150px;
         max-height: 150px;
     }
     /* no usar ul */
-    ul {
+    .footer-ul {
+        
         list-style: none;
         display: flex;
+        gap: 10px;
         flex-direction: column;
         align-items: flex-start;
     }
     /* no usar a */
-    a {
+    .footer-a {
         color: inherit !important;
         text-decoration: none !important;
     }
@@ -329,6 +334,11 @@ li a {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        gap: 10px;
+    }
+
+    .metodos-pago{
+        display: flex;
     }
     
     .btn-color {
@@ -340,13 +350,30 @@ li a {
         display: flex;
         flex-direction: column;
     }
+
+    .footer-header{
+        display: inline-flex;
+        justify-content: space-around;
+    }
+
+    .imagenes {
+        display: inline-flex;
+        justify-content: center;
+        gap: 50px;
+        
+    }
     .imagenes > img{
+        
         max-width: 200px;
         max-height:200px;
-        overflow: visible;
-        position: absolute;
-        top: -5%;
-     }
+        overflow: visible; 
+    }
+
+    .imagenes > img:hover {
+        width: 250px;
+        height: 250px;
+        transition: all 0.5s ease-out;
+    }
     
      .ot1{
         left: 20%;

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
     <LINK REL=StyleSheet HREF="/css/style.css" TYPE="text/css" MEDIA=screen>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <header>
@@ -19,8 +20,8 @@
    </nav> 
  </header>
 
-<body>
-<u><h1>MODA D</h1></u>
+<body class="main">
+<u><h1 class="title">MODA D</h1></u>
 
 <div class="frase">
   <p class="fr">
@@ -34,112 +35,108 @@
     
 </div>
 <div class="grid-container">
-   <div><img src="/avatares/imagen1f.webp" alt=""><u><span >Gema Rodriguez</span></u></div>
-   <div><img src="/avatares/imagen1m.jpg" alt=""><u><span >Emanuel Toledo</span></u></div>
-   <div><img src="/avatares/imagen2f.webp" alt=""><u><span >Melina Rossodivito</span></u></div>
-   <div><img src="/avatares/imagen2m.webp" alt=""><u><span >Victo Taborda</span></u></div>
-   <div><img src="/avatares/imagen3f.jpg" alt=""><u><span >Rocio Vivanco</span></u></div>
-   <div><img src="/avatares/imagen3m.jpg" alt=""><u><span >Juan Bellora</span></u></div>
+   <div><img class="img-avatares" src="/avatares/imagen1f.webp" alt=""><u><span class="nombres" >Gema Rodriguez</span></u></div>
+   <div><img class="img-avatares" src="/avatares/imagen1m.jpg" alt=""><u><span  class="nombres">Emanuel Toledo</span></u></div>
+   <div><img class="img-avatares" src="/avatares/imagen2f.webp" alt=""><u><span class="nombres" >Melina Rossodivito</span></u></div>
+   <div><img class="img-avatares" src="/avatares/imagen2m.webp" alt=""><u><span class="nombres" >Victo Taborda</span></u></div>
+   <div><img class="img-avatares" src="/avatares/imagen3f.jpg" alt=""><u><span  class="nombres">Rocio Vivanco</span></u></div>
+   <div><img class="img-avatares" src="/avatares/imagen3m.jpg" alt=""><u><span  class="nombres">Juan Bellora</span></u></div>
 </div>
 <p class="fra">con MODA D, dile adiós al “no tengo que ponerme” y sé tu mejor versión </p>
 </body>
 
-    <footer>
-        <!-- Footer hecho por Gema -->
-        <img src="/icons/logo.jpg" alt="logo" class="logo">
-        <div class="imagenes"> 
-            <img class="ot1" src="/img/ot1.jpeg" alt="">
-            <img class="ot2" src="/img/ot2.jpeg"/>
-            <img class="ot3" src="/img/ot3.jpeg"/>
-            <img class="ot4" src="/img/ot4.jpeg"/>
-        </div>
-        <div class="listado">
-            <div class="mc">
-              <h3>Medios de Atención al cliente</h3>
-                <ul>
-                    <li class="inline-li"><img class="icon" src="/links/location-dot-solid.svg" alt=""><a href="#"> Nuestros puntos de distribución </a> </li>
-                    <li class="inline-li"><img class="icon" src="/links/whatsapp.svg" alt=""><a href="#"> WhatsApp: +54911335139xx</a></li>
-                    <li class="inline-li"><img class="icon" src="/links/envelope-solid.svg" alt=""><a href="#"> Email: info@marcad.com</a></li>
-                </ul>
-            </div>
-            <div class="rs">
-            <h3>Nuestras redes sociales</h3>
-            
-            <div class="redes">
-                <ul>
-                    <li class="inline-li"><img class="icon" src="/links/facebook.svg"></img><a href="https://es-la.facebook.com/">Facebook</a></li>
-                    <li class="inline-li"><img class="icon" src="/links/twitter.svg" alt=""><a href="https://twitter.com/">Twitter</a></li>
-                    <li class="inline-li"><img class="icon" src="/links/instagram.svg" alt=""></i><a href="https://www.instagram.com/">Instagram</a></li>
-                </ul>
-            </div>
-            </div>
-            
-            
-            <div class="ps">
-                <h3>Pago seguro</h3>
-                <p> <h6> Sistema de pago online gestionado por un proveedor de servicios especializado en pago online seguro.</h6></p>
-                
-                <div>
-                    <img class="md-icon" src="/icons/visa.png"></img>
-                    <img class="md-icon" src="/icons/Mastercard.png"></img>
-                    <img class="md-icon" src="/icons/am.png"></img>
-                    <img class="md-icon" src="/icons/PayPal.png"></img>
-                </div>
-                
-                <button type="button" class="btn btn-color" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Suscribirse para ofertas
-                </button>
-            </div>
-      
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Coloca tus datos</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body column-form">
-              <form action="#">
-    
-                <div>
-                    <label for="nombre">Nombre</label>
-                    <input id="nombre" type="text"/>
-                </div>
-    
-                <div>
-    
-                    <label for="apellido">Apellido</label>
-                    <input id="apellido" type="text"/>
-                </div>
-                
-                <div>
-                    <label for="email">Email &nbsp;&nbsp;&nbsp;</label>
-                    <input id= "email" type="email"/>
-    
-                </div>
-              </form>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-              <button type="button" class="btn btn-color">Guardar Cambios</button>
-            </div>
-          </div>
+<footer>
+  <!-- Footer hecho por Gema -->
+  <div class="footer-header">
+    <img src="/icons/logo.jpg" alt="logo" class="logo">
+    <div class="imagenes"> 
+        <img class="ot1" src="/img/ot1.jpeg" alt="">
+        <img class="ot2" src="/img/ot2.jpeg"/>
+        <img class="ot3" src="/img/ot3.jpeg"/>
+        <img class="ot4" src="/img/ot4.jpeg"/>
+    </div>
+  </div>
+
+  <div class="listado">
+      <div class="mc">
+        <h3>Medios de Atención al cliente</h3>
+          <ul class="footer-ul">
+              <li class="inline-li"><img class="icon" src="/links/location-dot-solid.svg" alt=""><a class="footer-a" href="#"> Nuestros puntos de distribución </a> </li>
+              <li class="inline-li"><img class="icon" src="/links/whatsapp.svg" alt=""><a class="footer-a" href="#"> WhatsApp: +54911335139xx</a></li>
+              <li class="inline-li"><img class="icon" src="/links/envelope-solid.svg" alt=""><a class="footer-a" href="#"> Email: info@marcad.com</a></li>
+          </ul>
+      </div>
+      <div class="rs">
+        <h3>Nuestras redes sociales</h3>
+        
+        <div class="redes">
+            <ul class="footer-ul">
+                <li class="inline-li"><img class="icon" src="/links/facebook.svg"></img><a class="footer-a" href="https://es-la.facebook.com/">Facebook</a></li>
+                <li class="inline-li"><img class="icon" src="/links/twitter.svg" alt=""><a class="footer-a" href="https://twitter.com/">Twitter</a></li>
+                <li class="inline-li"><img class="icon" src="/links/instagram.svg" alt=""></i><a class="footer-a" href="https://www.instagram.com/">Instagram</a></li>
+            </ul>
         </div>
       </div>
-            
-            </div>
-        </div>
-        
-        <div class="row"></div>
-        <div class="col-md-12">
-            <p>Derechos de autor © 2023 Marca D</p>
-        </div>
-    </footer>
-    <!-- Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <!-- Java script -->
-    <script src="js/scripts.js"></script>
+      
+      
+      <div class="ps">
+          <h3>Pago seguro</h3>
+          <p> <h6> Sistema de pago online gestionado por un proveedor de servicios especializado en pago online seguro.</h6></p>
+          
+          <div>
+              <img class="md-icon" src="/icons/visa.png"></img>
+              <img class="md-icon" src="/icons/Mastercard.png"></img>
+              <img class="md-icon" src="/icons/am.png"></img>
+              <img class="md-icon" src="/icons/PayPal.png"></img>
+          </div>
+          
+          <button type="button" class="btn btn-color" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Suscribirse para ofertas
+          </button>
+      </div>
 
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Coloca tus datos</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body column-form">
+        <form action="#">
+
+          <div>
+              <label for="nombre">Nombre</label>
+              <input id="nombre" type="text"/>
+          </div>
+
+          <div>
+
+              <label for="apellido">Apellido</label>
+              <input id="apellido" type="text"/>
+          </div>
+          
+          <div>
+              <label for="email">Email &nbsp;&nbsp;&nbsp;</label>
+              <input id= "email" type="email"/>
+
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-color">Guardar Cambios</button>
+      </div>
+    </div>
+  </div>
+</div>
+      
+      </div>
+  </div>
+  
+  <div class="row"></div>
+  <div class="col-md-12">
+      <p>Derechos de autor © 2023 Marca D</p>
+  </div>
 </footer>
 </html>
